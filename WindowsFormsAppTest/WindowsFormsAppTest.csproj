@@ -135,6 +135,10 @@
       <Project>{a3523511-8ea0-4aa7-807f-85936083f685}</Project>
       <Name>Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{dbfc9c53-1c20-4fe9-8f3d-2a186b8bfac3}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

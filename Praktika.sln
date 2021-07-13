@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTest", "ConsoleAppTest\ConsoleAppTest.csproj", "{50E9F0FA-FE35-4D8C-BE72-5A2D168D8E69}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{8AC5B333-D715-422A-8AF2-3590DEBD2B3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{A3523511-8EA0-4AA7-807F-85936083F685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{DBFC9C53-1C20-4FE9-8F3D-2A186B8BFAC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +47,15 @@ Global
 		{A3523511-8EA0-4AA7-807F-85936083F685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3523511-8EA0-4AA7-807F-85936083F685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3523511-8EA0-4AA7-807F-85936083F685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFC9C53-1C20-4FE9-8F3D-2A186B8BFAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFC9C53-1C20-4FE9-8F3D-2A186B8BFAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFC9C53-1C20-4FE9-8F3D-2A186B8BFAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFC9C53-1C20-4FE9-8F3D-2A186B8BFAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A8E6AAA-6F7A-434C-9C15-A59ADAB5874B}
 	EndGlobalSection
 EndGlobal

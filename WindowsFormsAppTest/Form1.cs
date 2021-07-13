@@ -12,15 +12,21 @@ using System.IO;
 using Models;
 using Service;
 using Repository;
+using Castle.Windsor;
+using Service.Interfaces;
 
 namespace WindowsFormsAppTest
 {
     public partial class Form1 : Form
     {
-
+        WindsorContainer _container;
+        IArduinoService _arduinoService;
         public Form1()
         {
             InitializeComponent();
+
+            _container = Bootstrap.BuildContainer();
+            IArduinoService _arduinoService;
 
             Arduino arduino = new Arduino();
             arduino.ID = Guid.NewGuid().ToString();
@@ -28,8 +34,9 @@ namespace WindowsFormsAppTest
             arduino.ArduinoName = "ArduinoUno";
             arduino.ControllerFrequency = 8000000;
 
-            ArduinoService arduinoservice = new ArduinoService(unitOfWork, ArduinoRepository);
+            // _arduinoService.Create(arduino);
 
+            List<Arduino> arduinos = _arduinoService.GetAll().ToList();
 
             SerialPort serialPort1 = new SerialPort("COM8", 9600, Parity.None);
             serialPort1.Open();
