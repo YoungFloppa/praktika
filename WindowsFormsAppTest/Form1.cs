@@ -26,7 +26,7 @@ namespace WindowsFormsAppTest
             InitializeComponent();
 
             _container = Bootstrap.BuildContainer();
-            IArduinoService _arduinoService;
+            _arduinoService = _container.Resolve<IArduinoService>();
 
             Arduino arduino = new Arduino();
             arduino.ID = Guid.NewGuid().ToString();
@@ -34,7 +34,7 @@ namespace WindowsFormsAppTest
             arduino.ArduinoName = "ArduinoUno";
             arduino.ControllerFrequency = 8000000;
 
-            // _arduinoService.Create(arduino);
+            _arduinoService.Create(arduino);
 
             List<Arduino> arduinos = _arduinoService.GetAll().ToList();
 

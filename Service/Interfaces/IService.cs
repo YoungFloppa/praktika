@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Service.Interfaces
 {
-    interface IService
+    public interface IService
     {
     }
 }

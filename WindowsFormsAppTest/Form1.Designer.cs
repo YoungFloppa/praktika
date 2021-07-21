@@ -78,7 +78,7 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(68, 199);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 29);
+            this.label2.Size = new System.Drawing.Size(96, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "Влажность";
             // 
@@ -88,7 +88,7 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(68, 247);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 29);
+            this.label3.Size = new System.Drawing.Size(88, 23);
             this.label3.TabIndex = 4;
             this.label3.Text = "Давление";
             // 
@@ -129,7 +129,7 @@
             this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.Location = new System.Drawing.Point(68, 302);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(311, 29);
+            this.label7.Size = new System.Drawing.Size(241, 23);
             this.label7.TabIndex = 9;
             this.label7.Text = "Управление кондиционером";
             // 
@@ -141,7 +141,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(68, 141);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 29);
+            this.label1.Size = new System.Drawing.Size(112, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Температура";
             // 
@@ -150,7 +150,7 @@
             this.temp.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.temp.Location = new System.Drawing.Point(219, 141);
             this.temp.Name = "temp";
-            this.temp.Size = new System.Drawing.Size(56, 36);
+            this.temp.Size = new System.Drawing.Size(56, 31);
             this.temp.TabIndex = 10;
             // 
             // vlag
@@ -158,7 +158,7 @@
             this.vlag.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.vlag.Location = new System.Drawing.Point(219, 191);
             this.vlag.Name = "vlag";
-            this.vlag.Size = new System.Drawing.Size(56, 36);
+            this.vlag.Size = new System.Drawing.Size(56, 31);
             this.vlag.TabIndex = 11;
             // 
             // textBox3
@@ -166,9 +166,8 @@
             this.textBox3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox3.Location = new System.Drawing.Point(219, 244);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(117, 36);
+            this.textBox3.Size = new System.Drawing.Size(117, 31);
             this.textBox3.TabIndex = 12;
-            this.textBox3.Text = "760 мм.рт.ст.";
             // 
             // label4
             // 
@@ -176,7 +175,7 @@
             this.label4.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(100, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(226, 33);
+            this.label4.Size = new System.Drawing.Size(175, 26);
             this.label4.TabIndex = 13;
             this.label4.Text = "Текущие Значения";
             // 
@@ -186,7 +185,7 @@
             this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(68, 89);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 29);
+            this.label5.Size = new System.Drawing.Size(67, 23);
             this.label5.TabIndex = 14;
             this.label5.Text = "Высота";
             // 
@@ -195,13 +194,12 @@
             this.textBox4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox4.Location = new System.Drawing.Point(219, 89);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(56, 36);
+            this.textBox4.Size = new System.Drawing.Size(56, 31);
             this.textBox4.TabIndex = 15;
-            this.textBox4.Text = "200 м";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.ClientSize = new System.Drawing.Size(973, 572);

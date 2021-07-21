@@ -8,7 +8,7 @@ using Models;
 
 namespace Service.Interfaces
 {
-    interface IEntityService <T> : IService where T : EntityBase
+     public interface IEntityService <T> : IService where T : EntityBase
     {
         T GetById(Guid id);
         IEnumerable<T> GetAll();
